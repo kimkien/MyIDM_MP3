@@ -1,0 +1,6 @@
+﻿Bài tập lớn: Lập trình mạng
+- https://mariusbancila.ro/blog/2018/03/13/using-curl-library-from-c-on-windows/ : sử dụng thư viện 
+- https://www.winpcap.org/docs/docs_412/html/group__wpcapsamps.html :hướng dẫn chi tiết
+- https://www.youtube.com/watch?v=wjNyT5PhNvI : cài curl
+ (Normaliz.lib;Ws2_32.lib;Wldap32.lib;Crypt32.lib;advapi32.lib - 
+cần được bổ sung trong input->additional dependencies)

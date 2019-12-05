@@ -1,0 +1,4 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (E:\LapTrinhMang\MyCode\WinPcap_Demo\WpdPack\Examples-pcap\\Debug\x86\) contains files shared from another project (basic_dump.vcxproj, basic_dump_ex.vcxproj, iflist.vcxproj, pcap_filter.vcxproj, UDPdump.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+cl : Command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  readfile.c
+e:\laptrinhmang\mycode\winpcap_demo\wpdpack\examples-pcap\readfile\readfile.c : fatal error C1041: cannot open program database 'E:\LapTrinhMang\MyCode\WinPcap_Demo\WpdPack\Examples-pcap\Debug\x86\vc141.idb'; if multiple CL.EXE write to the same .PDB file, please use /FS

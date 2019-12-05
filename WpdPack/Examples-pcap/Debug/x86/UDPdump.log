@@ -1,0 +1,8 @@
+﻿cl : Command line warning D9035: option 'Gm' has been deprecated and will be removed in a future release
+  UDPdump.c
+e:\laptrinhmang\mycode\winpcap_demo\wpdpack\examples-pcap\udpdump\udpdump.c(142): warning C4473: 'fprintf' : not enough arguments passed for format string
+  e:\laptrinhmang\mycode\winpcap_demo\wpdpack\examples-pcap\udpdump\udpdump.c(142): note: placeholders and their parameters expect 1 variadic arguments, but 0 were provided
+  e:\laptrinhmang\mycode\winpcap_demo\wpdpack\examples-pcap\udpdump\udpdump.c(142): note: the missing variadic argument 1 is required by format string '%s'
+UDPdump.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+UDPdump.obj : warning LNK4099: PDB 'vc141.pdb' was not found with 'UDPdump.obj' or at 'E:\LapTrinhMang\MyCode\WinPcap_Demo\WpdPack\Examples-pcap\Debug\x86\vc141.pdb'; linking object as if no debug info
+  UDPdump.vcxproj -> E:\LapTrinhMang\MyCode\WinPcap_Demo\WpdPack\Examples-pcap\\Debug\x86\UDPdump.exe

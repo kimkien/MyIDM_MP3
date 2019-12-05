@@ -1,0 +1,7 @@
+﻿  WinPcap_Demo.cpp
+e:\laptrinhmang\mycode\winpcap_demo\winpcap_demo\winpcap_demo.cpp(186): warning C4476: 'printf' : unknown type field character '.' in format specifier
+e:\laptrinhmang\mycode\winpcap_demo\winpcap_demo\winpcap_demo.cpp(186): warning C4474: 'printf' : too many arguments passed for format string
+  e:\laptrinhmang\mycode\winpcap_demo\winpcap_demo\winpcap_demo.cpp(186): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+e:\laptrinhmang\mycode\winpcap_demo\winpcap_demo\winpcap_demo.cpp(297): warning C4129: 's': unrecognized character escape sequence
+e:\laptrinhmang\mycode\winpcap_demo\winpcap_demo\winpcap_demo.cpp(298): warning C4129: '.': unrecognized character escape sequence
+  WinPcap_Demo.vcxproj -> E:\LapTrinhMang\MyCode\WinPcap_Demo\Debug\WinPcap_Demo.exe
