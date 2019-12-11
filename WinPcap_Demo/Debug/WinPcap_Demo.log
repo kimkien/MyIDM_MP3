@@ -10,8 +10,10 @@ e:\laptrinhmang\mycode\winpcap_demo\myidm_mp3\winpcap_demo\winpcap_demo.cpp(223)
 e:\laptrinhmang\mycode\winpcap_demo\myidm_mp3\winpcap_demo\winpcap_demo.cpp(332): warning C4129: 's': unrecognized character escape sequence
 e:\laptrinhmang\mycode\winpcap_demo\myidm_mp3\winpcap_demo\winpcap_demo.cpp(333): warning C4129: '.': unrecognized character escape sequence
 e:\laptrinhmang\mycode\winpcap_demo\myidm_mp3\winpcap_demo\winpcap_demo.cpp(343): warning C4101: 'temp': unreferenced local variable
+e:\laptrinhmang\mycode\winpcap_demo\myidm_mp3\winpcap_demo\winpcap_demo.cpp(432): warning C4101: 'lenh': unreferenced local variable
+e:\laptrinhmang\mycode\winpcap_demo\myidm_mp3\winpcap_demo\winpcap_demo.cpp(467): warning C4101: 'deleteFile': unreferenced local variable
 e:\laptrinhmang\mycode\winpcap_demo\myidm_mp3\winpcap_demo\winpcap_demo.cpp(484): warning C4101: 'server_reply': unreferenced local variable
 e:\laptrinhmang\mycode\winpcap_demo\myidm_mp3\winpcap_demo\winpcap_demo.cpp(654): warning C4018: '<': signed/unsigned mismatch
-e:\laptrinhmang\mycode\winpcap_demo\myidm_mp3\winpcap_demo\winpcap_demo.cpp(719): warning C4018: '<': signed/unsigned mismatch
-e:\laptrinhmang\mycode\winpcap_demo\myidm_mp3\winpcap_demo\winpcap_demo.cpp(729): warning C4172: returning address of local variable or temporary: buff
+e:\laptrinhmang\mycode\winpcap_demo\myidm_mp3\winpcap_demo\winpcap_demo.cpp(721): warning C4018: '<': signed/unsigned mismatch
+e:\laptrinhmang\mycode\winpcap_demo\myidm_mp3\winpcap_demo\winpcap_demo.cpp(741): warning C4172: returning address of local variable or temporary: buff
   WinPcap_Demo.vcxproj -> E:\LapTrinhMang\MyCode\WinPcap_Demo\MyIDM_MP3\Debug\WinPcap_Demo.exe

@@ -436,10 +436,10 @@ void taiFile(LINK lk) {
 			break;
 		}
 		if (received_len == 0) {
-			char deleteFile[256];
+			/*char deleteFile[256];
 			sprintf(deleteFile, "temp//%s.txt", lk.fileName);
-			remove(deleteFile);
-			printf("\n-------Success file: %s \n\n", lk.fileName);
+			remove(deleteFile);*/
+			printf("\n-------Success file : %s \n\n", lk.fileName);
 			break;
 		}
 		//no phan HTTP/1.1 o dau file
@@ -459,14 +459,14 @@ void taiFile(LINK lk) {
 
 		//luu lai thong tin tai
 
-		sprintf(lenh, "echo %d>temp//\"%s.txt\"", total, lk.fileName);
-		system(lenh);
+		/*sprintf(lenh, "echo %d>temp//\"%s.txt\"", total, lk.fileName);
+		system(lenh);*/
 		//printf("\nFile: %s- Kich thuoc da nhan: %d/%d", lk.fileName, total, sizeFile);
 		//system("cls");
 		if (total >= sizeFile) {
 			char deleteFile[256];
-			sprintf(deleteFile, "temp//%s.txt", lk.fileName);
-			remove(deleteFile);
+			/*sprintf(deleteFile, "temp//%s.txt", lk.fileName);
+			remove(deleteFile);*/
 			printf("\n-------Success file: %s \n\n", lk.fileName);
 			break;
 		}
@@ -677,7 +677,8 @@ void getHead(char * messGetHead, SOCKADDR_IN addr, int &sizeFile) {
 	send(s, messGetHead, strlen(messGetHead), 0);
 	ret = recv(s, buf, sizeof(buf), 0);
 	if (ret > 0) {
-		buf[ret] = 0;
+		if(ret <1024)
+			buf[ret] = 0;
 
 		for (int i = 0; i < ret; i++) {
 			if (strncmp(buf + i, "Content-Length: ", 16) == 0) {
@@ -716,16 +717,27 @@ char* urldecode(const char *url) {
 	int i = 0;
 	int key = 0;
 	char buff[256] = "";
+	boolean addtail = false;
 	while (i < strlen(url)) {
-		if (url[i] == '%'&&url[i + 1] == '2'&&url[i + 2] == '0') {
+		if (url[i] == '%' && url[i + 1] == '2' && url[i + 2] == '0') {
 			strncat(buff, url + key, i - key);
 			i += 2;
 			key = i + 1;
 			strcat(buff, " ");
 		}
+		if ((url[i] == '/' || url[i] == '<' || url[i] == '>'
+			|| url[i] == ':' || url[i] == '*' || url[i] == '?'
+			|| url[i] == '\\' || url[i] == '|' || url[i] == '\"')) {
+			strncat(buff, url + key, i-key);
+			i = i + 1;
+			key = i+1;
+			strcat(buff, "_");
+		}
+		if (i == (strlen(url) - 3) && url[i] != '.') addtail = true;
 		i++;
 	}
 	strcat(buff, url + key);
+	if (addtail) strcat(buff, ".mp3");
 	return (char *)buff;
 }
 
