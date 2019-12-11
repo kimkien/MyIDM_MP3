@@ -1,10 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\WinPcap_Demo\\Debug",
-    "\\WinPcap_Demo\\Debug\\WinPcap_Demo.tlog",
-    "\\WpdPack\\Examples-remote"
+    "\\WinPcap_Demo"
   ],
-  "SelectedNode": "\\WpdPack",
+  "SelectedNode": "\\WinPcap_Demo\\Download_Mp3.cpp",
   "PreviewInSolutionExplorer": false
 }

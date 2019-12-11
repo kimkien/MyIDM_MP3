@@ -1,7 +1,17 @@
 ﻿  WinPcap_Demo.cpp
-e:\laptrinhmang\mycode\winpcap_demo\winpcap_demo\winpcap_demo.cpp(186): warning C4476: 'printf' : unknown type field character '.' in format specifier
-e:\laptrinhmang\mycode\winpcap_demo\winpcap_demo\winpcap_demo.cpp(186): warning C4474: 'printf' : too many arguments passed for format string
-  e:\laptrinhmang\mycode\winpcap_demo\winpcap_demo\winpcap_demo.cpp(186): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
-e:\laptrinhmang\mycode\winpcap_demo\winpcap_demo\winpcap_demo.cpp(297): warning C4129: 's': unrecognized character escape sequence
-e:\laptrinhmang\mycode\winpcap_demo\winpcap_demo\winpcap_demo.cpp(298): warning C4129: '.': unrecognized character escape sequence
-  WinPcap_Demo.vcxproj -> E:\LapTrinhMang\MyCode\WinPcap_Demo\Debug\WinPcap_Demo.exe
+e:\laptrinhmang\mycode\winpcap_demo\myidm_mp3\winpcap_demo\winpcap_demo.cpp(2): warning C4005: '_WINSOCK_DEPRECATED_NO_WARNINGS': macro redefinition
+  e:\laptrinhmang\mycode\winpcap_demo\myidm_mp3\winpcap_demo\winpcap_demo.cpp: note: see previous definition of '_WINSOCK_DEPRECATED_NO_WARNINGS'
+e:\laptrinhmang\mycode\winpcap_demo\myidm_mp3\winpcap_demo\winpcap_demo.cpp(2): warning C4603: '_WINSOCK_DEPRECATED_NO_WARNINGS': macro is not defined or definition is different after precompiled header use
+  e:\laptrinhmang\mycode\winpcap_demo\myidm_mp3\winpcap_demo\winpcap_demo.cpp(2): note: Add macro to precompiled header instead of defining here
+  e:\laptrinhmang\mycode\winpcap_demo\myidm_mp3\winpcap_demo\winpcap_demo.cpp(3): note: use of precompiled header
+e:\laptrinhmang\mycode\winpcap_demo\myidm_mp3\winpcap_demo\winpcap_demo.cpp(223): warning C4476: 'printf' : unknown type field character '.' in format specifier
+e:\laptrinhmang\mycode\winpcap_demo\myidm_mp3\winpcap_demo\winpcap_demo.cpp(223): warning C4474: 'printf' : too many arguments passed for format string
+  e:\laptrinhmang\mycode\winpcap_demo\myidm_mp3\winpcap_demo\winpcap_demo.cpp(223): note: placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+e:\laptrinhmang\mycode\winpcap_demo\myidm_mp3\winpcap_demo\winpcap_demo.cpp(332): warning C4129: 's': unrecognized character escape sequence
+e:\laptrinhmang\mycode\winpcap_demo\myidm_mp3\winpcap_demo\winpcap_demo.cpp(333): warning C4129: '.': unrecognized character escape sequence
+e:\laptrinhmang\mycode\winpcap_demo\myidm_mp3\winpcap_demo\winpcap_demo.cpp(343): warning C4101: 'temp': unreferenced local variable
+e:\laptrinhmang\mycode\winpcap_demo\myidm_mp3\winpcap_demo\winpcap_demo.cpp(484): warning C4101: 'server_reply': unreferenced local variable
+e:\laptrinhmang\mycode\winpcap_demo\myidm_mp3\winpcap_demo\winpcap_demo.cpp(654): warning C4018: '<': signed/unsigned mismatch
+e:\laptrinhmang\mycode\winpcap_demo\myidm_mp3\winpcap_demo\winpcap_demo.cpp(719): warning C4018: '<': signed/unsigned mismatch
+e:\laptrinhmang\mycode\winpcap_demo\myidm_mp3\winpcap_demo\winpcap_demo.cpp(729): warning C4172: returning address of local variable or temporary: buff
+  WinPcap_Demo.vcxproj -> E:\LapTrinhMang\MyCode\WinPcap_Demo\MyIDM_MP3\Debug\WinPcap_Demo.exe
